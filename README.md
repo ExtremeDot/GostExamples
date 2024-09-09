@@ -18,10 +18,19 @@ bash <(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh) --insta
 
 ###### Install Gost V2
 
+
 * Download Binary file
 
 [Gost V2 - Download Binary Files](https://github.com/ginuerzh/gost/releases)
 
+###### Install V 2.11.5
+```
+wget https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linux-amd64-2.11.5.gz
+
+gunzip gost-linux-amd64-2.11.5.gz && chmod +x gost-linux-amd64-2.11.5
+
+sudo mv gost-linux-amd64-2.11.5 /usr/local/bin/gost
+```
 
   * Build From Source 
 ```
