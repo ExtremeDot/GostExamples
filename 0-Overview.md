@@ -8,17 +8,27 @@ GOST یک سرویس یا نود است که به دو لایه تقسیم می�
 
 ##### پراکسی (Proxy)
 http - پروتکل HTTP
+
 http2 - پروتکل HTTP2
+
 socks4 - پراکسی SOCKS4/SOCKS4A
+
 socks, socks5 - پراکسی SOCKS5
+
 ss - Shadowsocks
+
 ssu - Shadowsocks UDP Relay
+
 sni - پراکسی SNI
+
 relay - Relay
 فورواردینگ (Forwarding)
 tcp - فورواردینگ پورت TCP
+
 udp - فورواردینگ پورت UDP
-rtcp - فورواردینگ پورت TCP از راه دور
+
+rtcp - فورواردینگ پورت TCP ا
+ز راه دور
 rudp - فورواردینگ پورت UDP از راه دور
 
 ##### کانال داده
@@ -26,41 +36,75 @@ rudp - فورواردینگ پورت UDP از راه دور
 
 tcp - پروتکل TCP خام
 mtcp - مالتی‌پلکس بر روی TCP خام
+
 udp - پروتکل UDP خام
+
 tls - پروتکل TLS
+
 dtls - پروتکل DTLS
+
 mtls - مالتی‌پلکس بر روی TLS
+
 ws - وب‌سوکت
+
 mws - مالتی‌پلکس بر روی وب‌سوکت
+
 wss - وب‌سوکت امن
+
 mwss - مالتی‌پلکس بر روی وب‌سوکت امن
+
 h2 - HTTP2
+
 h2c - HTTP2 Cleartext
+
 grpc - gRPC
+
 pht - Plain HTTP Tunnel
+
 ssh, sshd - SSH
+
 kcp - پروتکل KCP
+
 quic - پروتکل QUIC
+
 h3 - PHT بر روی HTTP/3
+
 wt - WebTransport بر روی HTTP/3
+
 ohttp - مخفی‌سازی HTTP
+
 otls - مخفی‌سازی TLS
+
 icmp, icmp6 - پروتکل‌های ICMP و ICMPv6
+
 ftcp - Fake TCP
+
 
 ##### پروتکل‌های خاص
 file - سرور فایل HTTP
+
 https - معادل ترکیب پراکسی HTTP و کانال TLS (http+tls)
+
 http3 - سرویس پراکسی معکوس HTTP3
+
 dns - پراکسی DNS
+
 red, redir, redirect - پراکسی شفاف TCP
+
 redu - پراکسی شفاف UDP
+
 tun - دستگاه TUN
+
 tap - دستگاه TAP
-forward - فورواردینگ سمت سرور
+
+forward - ف
+ورواردینگ سمت سرور
 virtual - نود مجازی
+
 unix - Redirector سوکت دامین یونیکس
+
 serial - Redirector پورت سریال
+
 
 ##### محدودیت‌ها
 همه کانال‌های داده بر اساس پروتکل UDP (مانند kcp، quic، h3، wt، و همچنین icmp) فقط برای نودهای سطح اول در زنجیره فورواردینگ قابل استفاده هستند.
