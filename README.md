@@ -8,6 +8,10 @@
 ###### Install Gost V3
 ```
 (https://github.com/go-gost/gost/releases)
+
+```
+
+```
 bash <(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh) --install
 ```
 
