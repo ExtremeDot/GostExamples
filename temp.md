@@ -64,3 +64,16 @@ port=
 ```
 curl --socks5 socks5://localhost:$port myip.wtf/json
 ```
+
+----
+
+### SERVER KHAREJ
+
+```
+gost -L relay+otls://:9000
+```
+
+### SERVER IRAN
+```
+gost  -L tcp://:1194/SERVER_KHAREJ:1194 -F relay+otls://SERVER_KHAREJ:9000
+```
