@@ -47,3 +47,16 @@ gost -L relay://:9000
 ```
 gost -L tcp://:3840/222.222.222.222:1194  -F  relay://222.222.222.222:9000
 ```
+
+
+### SERVER KHAREJ
+
+```
+gost -L relay+otls://:9000
+```
+
+### SERVER IRAN
+```
+gost  -L tcp://:1194/SERVER_KHAREJ:1194 -F relay+otls://SERVER_KHAREJ:9000
+```
+
