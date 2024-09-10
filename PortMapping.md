@@ -69,4 +69,19 @@ gost  -L tcp://:1194/SERVER_KHAREJ -F relay+otls://SERVER_KHAREJ:9000
 
 وقتی تونل برقرار میشه، سرور خارج تمامی درخواست ها رو از پورت 9000 میگیره و میفرسته برا پورت 1194
 
-...
+---
+### 02 - تونل با استفاده از mtls
+#### SERVER KHAREJ
+
+```
+gost -L relay+mtls://:9000/:1194
+```
+
+.
+
+### SERVER IRAN
+
+```
+ gost  -L tcp://:1194/SERVER_KHAREJ -F relay+mtls://SERVER_KHAREJ:9000
+
+```
