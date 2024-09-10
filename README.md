@@ -15,6 +15,10 @@
 bash <(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh) --install
 ```
 
+```
+unalias gost
+```
+
 -----
 ### Gost V2
 
@@ -34,6 +38,9 @@ wget https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linux-amd64
 gunzip gost-linux-amd64-2.11.5.gz && chmod +x gost-linux-amd64-2.11.5
 
 sudo mv gost-linux-amd64-2.11.5 /usr/local/bin/gost
+
+unalias gost
+
 ```
 
   * Build From Source 
