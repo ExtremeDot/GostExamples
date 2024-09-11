@@ -41,78 +41,79 @@
 ##### کانال داده
 کانال داده برای حمل داده‌های پروتکل پراکسی یا فوروارد استفاده می‌شود. پروتکل‌های کانال داده پشتیبانی‌شده به شرح زیر هستند:
 
-tcp - پروتکل TCP خام
-mtcp - مالتی‌پلکس بر روی TCP خام
+`tcp` - پروتکل TCP خام
 
-udp - پروتکل UDP خام
+`mtcp` - مالتی‌پلکس بر روی TCP خام
 
-tls - پروتکل TLS
+`udp - پروتکل UDP خام
 
-dtls - پروتکل DTLS
+`tls` - پروتکل TLS
 
-mtls - مالتی‌پلکس بر روی TLS
+`dtls` - پروتکل DTLS
 
-ws - وب‌سوکت
+`mtls` - مالتی‌پلکس بر روی TLS
 
-mws - مالتی‌پلکس بر روی وب‌سوکت
+`ws` - وب‌سوکت
 
-wss - وب‌سوکت امن
+`mws` - مالتی‌پلکس بر روی وب‌سوکت
 
-mwss - مالتی‌پلکس بر روی وب‌سوکت امن
+`wss` - وب‌سوکت امن
 
-h2 - HTTP2
+`mwss` - مالتی‌پلکس بر روی وب‌سوکت امن
 
-h2c - HTTP2 Cleartext
+`h2` - HTTP2
 
-grpc - gRPC
+`h2c` - HTTP2 Cleartext
 
-pht - Plain HTTP Tunnel
+`grpc` - gRPC
 
-ssh, sshd - SSH
+`pht` - Plain HTTP Tunnel
 
-kcp - پروتکل KCP
+`ssh`, `sshd` - SSH
 
-quic - پروتکل QUIC
+`kcp` - پروتکل KCP
 
-h3 - PHT بر روی HTTP/3
+`quic` - پروتکل QUIC
 
-wt - WebTransport بر روی HTTP/3
+`h3` - PHT بر روی HTTP/3
 
-ohttp - مخفی‌سازی HTTP
+`wt` - WebTransport بر روی HTTP/3
 
-otls - مخفی‌سازی TLS
+`ohttp` - مخفی‌سازی HTTP
 
-icmp, icmp6 - پروتکل‌های ICMP و ICMPv6
+`otls` - مخفی‌سازی TLS
 
-ftcp - Fake TCP
+`icmp`, `icmp6` - پروتکل‌های ICMP و ICMPv6
+
+`ftcp` - Fake TCP
 
 -----------------------
 
 
 ##### پروتکل‌های خاص
-file - سرور فایل HTTP
+`file` - سرور فایل HTTP
 
-https - معادل ترکیب پراکسی HTTP و کانال TLS (http+tls)
+`https` - معادل ترکیب پراکسی HTTP و کانال TLS (http+tls)
 
-http3 - سرویس پراکسی معکوس HTTP3
+`http3` - سرویس پراکسی معکوس HTTP3
 
-dns - پراکسی DNS
+`dns` - پراکسی DNS
 
-red, redir, redirect - پراکسی شفاف TCP
+`red`, `redir`, `redirect` - پراکسی شفاف TCP
 
-redu - پراکسی شفاف UDP
+`redu` - پراکسی شفاف UDP
 
-tun - دستگاه TUN
+`tun` - دستگاه TUN
 
-tap - دستگاه TAP
+`tap` - دستگاه TAP
 
-forward - ف
-ورواردینگ سمت سرور
-virtual - نود مجازی
+`forward` - فورواردینگ سمت سرور
 
-unix - Redirector سوکت دامین یونیکس
+`virtual` - نود مجازی
 
-serial - Redirector پورت سریال
+`unix` - Redirector سوکت دامین یونیکس
+
+`serial` - Redirector پورت سریال
 
 -----------
 
