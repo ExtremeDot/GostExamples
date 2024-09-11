@@ -12,29 +12,29 @@
 پردازش داده به دو نوع تقسیم می‌شود: پراکسی و فورواردینگ.
 
 ##### پراکسی (Proxy)
-http - پروتکل HTTP
+`http` - پروتکل HTTP
 
-http2 - پروتکل HTTP2
+`http2` - پروتکل HTTP2
 
-socks4 - پراکسی SOCKS4/SOCKS4A
+`socks4` - پراکسی SOCKS4/SOCKS4A
 
-socks, socks5 - پراکسی SOCKS5
+`socks`, `socks5` - پراکسی SOCKS5
 
-ss - Shadowsocks
+`ss` - Shadowsocks
 
-ssu - Shadowsocks UDP Relay
+`ssu` - Shadowsocks UDP Relay
 
-sni - پراکسی SNI
+`sni` - پراکسی SNI
 
-relay - Relay
+`relay` - Relay
 فورواردینگ (Forwarding)
-tcp - فورواردینگ پورت TCP
+`tcp` - فورواردینگ پورت TCP
 
-udp - فورواردینگ پورت UDP
+`udp` - فورواردینگ پورت UDP
 
-rtcp - فورواردینگ پورت TCP ا
-ز راه دور
-rudp - فورواردینگ پورت UDP از راه دور
+`rtcp` - فورواردینگ پورت TCP از راه دور
+
+`rudp` - فورواردینگ پورت UDP از راه دور
 
 -------------------
 
